@@ -14,7 +14,7 @@ public class FormataData {
 		SimpleDateFormat sdf2 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		SimpleDateFormat sdf3 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		sdf3.setTimeZone(TimeZone.getTimeZone("GMT"));
-		
+
 		Date x1 = new Date();
 		Date x2 = new Date(System.currentTimeMillis());
 		Date x3 = new Date(0L);
