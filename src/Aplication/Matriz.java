@@ -36,9 +36,9 @@ public class Matriz {
 		System.out.println();
 		System.out.println("Diagonal Secundária: ");
 		for (int l = 0; l < mat.length; l++) {
-			System.out.print(mat[l][m - 1 -l] + " ");
+			System.out.print(mat[l][m - 1 - l] + " ");
 		}
-		 
+
 		sc.close();
 	}
 
