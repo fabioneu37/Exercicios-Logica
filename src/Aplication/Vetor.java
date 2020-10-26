@@ -13,7 +13,6 @@ public class Vetor {
 		System.out.println("----------------------------------");
 		for (String obj : vect) {
 			System.out.println(obj);
-			System.out.println("Teste");
 		}
 
 	}
