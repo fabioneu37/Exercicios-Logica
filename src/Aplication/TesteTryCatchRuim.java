@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import model.entities.Reservation;
 
-public class TesteException {
+public class TesteTryCatchRuim {
 
 	public static void main(String[] args) throws ParseException {
 
@@ -46,5 +46,4 @@ public class TesteException {
 
 		sc.close();
 	}
-
 }
