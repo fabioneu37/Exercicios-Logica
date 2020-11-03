@@ -47,6 +47,9 @@ public class FormataData {
 		System.out.println("y1: " + sdf3.format(y1));
 		System.out.println("y2: " + sdf3.format(y2));
 		System.out.println("y3: " + sdf3.format(y3));
+		
+		Date agora = new Date();
+		System.out.println(agora);
 	}
 
 }
