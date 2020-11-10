@@ -1,6 +1,5 @@
 package Aplication;
 
-import java.util.Locale;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,7 +7,6 @@ public class Matriz {
 
 	public static void main(String[] args) {
 
-		Locale.setDefault(Locale.US);
 		Random numeros = new Random();
 		Scanner sc = new Scanner(System.in);
 

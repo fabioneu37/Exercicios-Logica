@@ -7,14 +7,13 @@ import java.util.List;
 import entities.enums.WorkerLevel;
 
 public class Worker {
-	
 
 	private String name;
 	private WorkerLevel level;
 	private double baseSalary;
 
 	private Departament departament;
-	private List<HourContract> contracts = new ArrayList<>();;
+	private List<HourContract> contracts = new ArrayList<>();
 
 	public Worker() {
 
@@ -84,5 +83,4 @@ public class Worker {
 		}
 		return sum;
 	}
-
 }
