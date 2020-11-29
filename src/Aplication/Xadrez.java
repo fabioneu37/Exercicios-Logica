@@ -22,9 +22,12 @@ public class Xadrez {
 				System.out.println();
 				System.out.print("Source: ");
 				ChessPosition source = UI.ReadChessPosition(sc);
-
+				
+				boolean[][] possibleMoves = chessMatch.PossibleMoves(source);
+				UI.clearScreen();
+				UI.printBoard(chessMatch.getPieces(), possibleMoves);
 				System.out.println();
-				System.out.print("Target: ");
+				System.out.println("Target: ");
 				ChessPosition target = UI.ReadChessPosition(sc);
 
 				ChessPiece capturePiece = chessMatch.peformChessMove(source, target);
