@@ -1,13 +1,15 @@
 package entities;
 
-public class Account  {
+public class Account {
 
 	private Integer number;
 	private String holder;
 	protected double balance;
 
-	public Account() {
+	public Account(Integer number, String holder) {
 
+		this.number = number;
+		this.holder = holder;
 	}
 
 	public Account(Integer number, String holder, double balance) {
@@ -36,11 +38,11 @@ public class Account  {
 	public double getBalance() {
 		return balance;
 	}
-	
+
 	public void withdraw(double amount) {
 		balance -= amount + 5.0;
 	}
-	
+
 	public void deposit(double amount) {
 		balance += amount;
 	}
