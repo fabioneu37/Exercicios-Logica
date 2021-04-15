@@ -6,10 +6,8 @@ public class Account {
 	private String holder;
 	protected double balance;
 
-	public Account(Integer number, String holder) {
+	public Account() {
 
-		this.number = number;
-		this.holder = holder;
 	}
 
 	public Account(Integer number, String holder, double balance) {
