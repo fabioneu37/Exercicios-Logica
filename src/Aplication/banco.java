@@ -32,8 +32,7 @@ public class banco {
 		} else {
 			account = new Account(number, nome);
 		}
-
-		System.out.println();
+		
 		System.out.println();
 		System.out.println("Dados da Conta: ");
 		System.out.println(account);
