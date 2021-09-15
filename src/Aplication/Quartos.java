@@ -18,7 +18,7 @@ public class Quartos {
 		for (int i = 1; i <= n; i++) {
 
 			System.out.println();
-			System.out.println("Rent # " + i + ":");
+			System.out.println("Quarto # " + i + ":");
 			System.out.print("Name: ");
 			sc.nextLine();
 			String name = sc.nextLine();

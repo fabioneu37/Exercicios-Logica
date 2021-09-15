@@ -12,7 +12,7 @@ public class array2 {
 		Scanner sc = new Scanner(System.in);
 
 		int n = sc.nextInt();
-		Produto vect[] = new Produto[n];
+		Produto[] vect = new Produto[n];
 
 		for (int i = 0; i < vect.length; i++) {
 			sc.nextLine();
@@ -23,14 +23,14 @@ public class array2 {
 
 		double sum = 0.0;
 		for (int i = 0; i < vect.length; i++) {
-           sum += vect[i].getPrice();
-           System.out.println(vect[i]);
+			sum += vect[i].getPrice();
 		}
+
 		double avg = sum / n;
-		System.out.printf("AVERAGE PRICE = %.2f%n", avg);
+
+		System.out.printf("AVAREGE PRICE = %.2f%n", avg);
 
 		sc.close();
-
 	}
 
 }

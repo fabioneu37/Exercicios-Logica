@@ -47,11 +47,13 @@ public class Matriz2 {
 					if (l > 0) {
 						System.out.println("Up: " + mat[l - 1][c]);
 					}
-					if (c < mat[l].length - 1) {
+					if (c < mat[l][c] - 1) {
+					
 						System.out.println("Right: " + mat[l][c + 1]);
 
 					}
 					if (l < mat.length - 1) {
+						System.out.println(mat.length);
 						System.out.println("Down: " + mat[l + 1][c]);
 						
 					}

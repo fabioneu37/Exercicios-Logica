@@ -19,7 +19,7 @@ public class TreinaLista {
 		Double n = sc.nextDouble();
 
 		for (int i = 1; i <= n; i++) {
-			System.out.println("entre com o Id: ");
+			System.out.print("entre com o Id: ");
 			int id = sc.nextInt();
 			System.out.print("Entre com o nome: ");
 			sc.nextLine();
@@ -30,6 +30,7 @@ public class TreinaLista {
 			Lista emp = new Lista(id, nome, salario);
 			list.add(emp);
 		}
+
 		System.out.println("");
 		System.out.print("Coloque o Id do colaborador que vai ter aumento: ");
 		int idsalario = sc.nextInt();
@@ -37,7 +38,11 @@ public class TreinaLista {
 
 		if (emp == null) {
 			System.out.println("Esse Id não existe! ");
-		} else {
+		}
+
+		else
+
+		{
 			System.out.println("Qual porcetagem de aumento: ");
 			double porcetagem = sc.nextDouble();
 			emp.aumento(porcetagem);
